@@ -48,7 +48,7 @@ MEDICAL_WHITELIST = {
     "température", "saturation", "glycémie",
     
     # Abréviations médicales (À COMPLETER)
-    # "RCP", "VNI", "PEC", "HTA", "DM2",
+    "RCP", "VNI", "PEC", "HTA", "DM2",
 }
 
 # ============================================================================
@@ -64,10 +64,10 @@ car ce sont des erreurs spécifiques à Vosk.
 
 VOSK_ERROR_MAPPINGS = {
     # Erreurs phonétiques courantes
-    "bonjour": "bonjour",           # Si Vosk dit "bon jour" au lieu de "bonjour"
-    "bonsoir": "bonsoir",
-    "comment": "comment",
-    "merci": "merci",
+    "bon jour": "bonjour",           # Si Vosk dit "bon jour" au lieu de "bonjour"
+    "bon soir": "bonsoir",
+    "com ment": "comment",
+    "mer ci": "merci",
     
     # Nombres et chiffres
     "un": "un",
