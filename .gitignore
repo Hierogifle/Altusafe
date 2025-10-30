@@ -1,0 +1,5 @@
+# Environnement virtuel
+.env/
+
+# Dossier data (à ignorer complètement)
+data/
